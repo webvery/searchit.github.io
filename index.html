@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .te
+      {
+        background-color: white;
+        border: 0;
+        border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 10px;
+      }
+
+      </style>
+  </head>
+   
+<body bgcolor="#EBEBEB">
+<center>
+  <br><br><br>
+  
+    <input type="text" class="te" name="q" id="q" placeholder="What to Search ?"/> <br><br><br>
+  
+<img src="gl.webp" height="45" width="45"  onclick="myFunction(1)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="b.webp" height="45" width="45" onclick="myFunction(2)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="d.webp" height="45" width="45" onclick="myFunction(3)">
+
+<br><br>
+
+ <img src="y.webp" height="45" width="45" onclick="myFunction(4)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="a.webp" height="45" width="45" onclick="myFunction(5)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="e.webp" height="45" width="45" onclick="myFunction(6)">
+
+<br><br>
+
+ <img src="gt.webp" height="45" width="45" onclick="myFunction(7)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="f.webp" height="45" width="45" onclick="myFunction(8)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="t.webp" height="45" width="45"  onclick="myFunction(9)">
+
+<br><br>
+
+ <img src="gp.webp" height="45" width="45" onclick="myFunction(10)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="th.webp" height="45" width="45" onclick="myFunction(11)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="r.webp" height="45" width="45" onclick="myFunction(12)">
+
+<br><br>
+
+ <img src="fl.webp" height="45" width="45" onclick="myFunction(13)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="yt.webp" height="45" width="45" onclick="myFunction(14)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img src="v.webp" height="45" width="45" onclick="myFunction(15)">
+
+</center>
+<script>
+function myFunction(n) {
+  var q = document.getElementById("q").value;
+
+  if(n == 1)
+  {
+    window.location.href = "http://www.google.com/search?q="+q;
+  } else if(n == 2)
+  {
+    window.location.href = "http://www.bing.com/search?q="+q;
+  }  else if(n == 3)
+  {
+    window.location.href = "https://duckduckgo.com/?q="+q;
+  }
+  else if(n == 4)
+  {
+    window.location.href = "https://search.yahoo.com/search?q="+q;
+  }  else if(n == 5)
+  {
+    window.location.href = "http://search.aol.com/aol/search?q="+q;
+  }
+  else if(n == 6)
+  {
+    window.location.href = "http://msxml.excite.com/search/web?q="+q;
+  }  else if(n == 7)
+  {
+    window.location.href = "https://github.com/search?q="+q;
+  }
+  else if(n == 8)
+  {
+    window.location.href = "https://www.facebook.com/public?query="+q;
+  }  else if(n == 9)
+  {
+    window.location.href = "https://twitter.com/search?q="+q;
+  }
+  else if(n == 10)
+  {
+    window.location.href = "https://plus.google.com/s/"+q;
+  }  else if(n == 11)
+  {
+    window.location.href = "https://www.tumblr.com/search/"+q;
+  }
+  else if(n == 12)
+  {
+    window.location.href = "https://www.reddit.com/search?q="+q;
+  }  else if(n == 13)
+  {
+    window.location.href = "https://www.flickr.com/search/?text="+q;
+  }
+  else if(n == 14)
+  {
+    window.location.href = "https://www.youtube.com/results?search_query="+q;
+  }  else if(n == 15)
+  {
+    window.location.href = "https://vimeo.com/search?q="+q;
+  }
+  
+}
+</script>
+
+</body>
+</html>
